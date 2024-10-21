@@ -1,13 +1,17 @@
 body {
+    margin: 0;
+}
+body.bg-image {
     background-image: url('record.png');
     background-repeat: repeat-y;
     background-position: -188px;
 }
-header {
+.page-header {
     color: white;
     background-color: darkslategray;
     text-align: center;
 }
-main {
+.page-content {
     background-color: lightslategray;
+    padding: 1rem;
 }
